@@ -1,0 +1,25 @@
+# Secrets / local config
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.pfx
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# Generated content (Citrix docs are copyrighted; rebuild with scripts/fetch_citrix_docs.py)
+docs/citrix/
+
+# Editors / OS / tools
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+.azure/
+.claude/settings.local.json

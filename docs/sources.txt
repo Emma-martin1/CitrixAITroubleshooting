@@ -1,0 +1,38 @@
+# Public Citrix documentation used for RAG.
+# Format: <category-slug> | <url>
+# Category slugs match the Category enum names in models.py (lowercase).
+# Run: python scripts/fetch_citrix_docs.py
+
+authentication | https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/secure/federated-authentication-service.html
+authentication | https://docs.citrix.com/en-us/storefront/current-release/configure-authentication-and-delegation.html
+authentication | https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/secure/smart-cards.html
+
+session | https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/manage-deployment/sessions.html
+session | https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/policies/reference/ica-policy-settings/session-reliability-policy-settings.html
+session | https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/policies/reference/ica-policy-settings/auto-client-reconnect-policy-settings.html
+
+performance | https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/policies/reference/ica-policy-settings/bandwidth-policy-settings.html
+performance | https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/graphics.html
+performance | https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/technical-overview/hdx.html
+
+printing | https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/printing.html
+printing | https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/printing/configuration/client-printer-redirection.html
+printing | https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/printing/configuration/network-printers.html
+printing | https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/printing/troubleshooting/troubleshooting.html
+printing | https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/printing/troubleshooting/best-practices.html
+
+application | https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/manage-deployment/applications-manage.html
+
+licensing | https://docs.citrix.com/en-us/licensing/current-release.html
+licensing | https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/manage-deployment/licensing.html
+
+network | https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/technical-overview/hdx/adaptive-transport.html
+network | https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/technical-overview/default-network-ports.html
+
+storefront | https://docs.citrix.com/en-us/storefront/current-release.html
+storefront | https://docs.citrix.com/en-us/storefront/current-release/troubleshoot.html
+storefront | https://docs.citrix.com/en-us/citrix-gateway/current-release.html
+
+profile | https://docs.citrix.com/en-us/profile-management/current-release.html
+profile | https://docs.citrix.com/en-us/profile-management/current-release/how-it-works.html
+profile | https://docs.citrix.com/en-us/profile-management/current-release/troubleshoot.html
